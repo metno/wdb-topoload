@@ -1,2 +1,2 @@
-debian/tmp/usr/lib/wdb/demLoad usr/lib/wdb
-debian/tmp/usr/share/man/man1/* usr/share/man/man1
+usr/lib/wdb/wdb-topoload usr/lib/wdb
+usr/share/man/man1/* usr/share/man/man1

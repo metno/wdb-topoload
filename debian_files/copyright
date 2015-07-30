@@ -1,11 +1,11 @@
-This package was debianized by Vegard Bønes <wdb@met.no> on
-Fri, 17 Oct 2008 10:43:11 +0200.
+This package was debianized by Børge Moe <wdb@met.no> on
+Thu, 30 Jul 2015 13:45:00 +0200.
 
-It was downloaded from http://wdb.met.no
+It was downloaded from https://github.com/metno/wdb-topoload
 
-Upstream Author: Vegard Bønes
+Upstream Author: Børge Moe
 
-Copyright: 2008 Vegard Bønes
+Copyright: 2015 Børge Moe
 
 License:
 
@@ -26,6 +26,5 @@ License:
 On Debian systems, the complete text of the GNU General
 Public License can be found in `/usr/share/common-licenses/GPL'.
 
-The Debian packaging is (C) 2008, Vegard Bønes <vegardb@met.no> and
+The Debian packaging is (C) 2015, Børge Moe <borgem@met.no> and
 is licensed under the GPL, see above.
-

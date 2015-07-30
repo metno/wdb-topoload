@@ -15,8 +15,7 @@ Package: wdb-topoload-1.0
 Architecture: any
 Depends: ${shlibs:Depends},
  ${misc:Depends}
-Provides: wdb-demload
-Conflicts: wdb-demload
+Provides: wdb-topoload
+Conflicts: wdb-topoload
 Description: Load topography files into wdb
  This package use gdal to load topography fields into wdb.
- 
