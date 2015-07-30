@@ -1,0 +1,22 @@
+Source: wdb-topoload
+Section: science
+Priority: extra
+Maintainer: WDB Group, Meteorologisk institutt <wdb@met.no>
+Uploaders: Børge Moe <borge.moe@met.no>
+Build-Depends: debhelper (>= 7),
+ autotools-dev,
+ cdbs,
+ libwdbload-dev,
+ libgdal1-dev 
+Build-Conflicts: autoconf2.13, automake1.4
+Standards-Version: 3.9.3
+
+Package: wdb-topoload-1.0
+Architecture: any
+Depends: ${shlibs:Depends},
+ ${misc:Depends}
+Provides: wdb-demload
+Conflicts: wdb-demload
+Description: Load topography files into wdb
+ This package use gdal to load topography fields into wdb.
+ 
