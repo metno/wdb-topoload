@@ -7,15 +7,15 @@
 
 # Scanned by Autoreconf; must be static (no expansion)
 ACLOCAL_AMFLAGS = -I config/m4
-				
+
 # Share directory organization
-wdblibdir =				$(libdir)/wdb
+wdblibdir = $(libdir)/wdb
 
 # Setting Targets
 wdblib_PROGRAMS = wdb-topoload
 
 wdb_topoload_CPPFLAGS = -I$(top_srcdir)/src $(AM_CPPFLAGS)
-	
+
 EXTRA_DIST =
 CLEANFILES =
 
