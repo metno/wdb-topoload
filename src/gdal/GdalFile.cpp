@@ -29,16 +29,18 @@
 #include <config.h>
 #endif
 
+#include <vector>
+#include <boost/assign.hpp>
+#include <boost/algorithm/string.hpp>
+#include <iostream>
+#include <cmath>
 #include <limits>
 #include <iostream>
+#include <ogr_spatialref.h>
 #include <wdbLogHandler.h>
 #include "GdalFile.h"
 #include "geometry/Point.h"
-#include <ogr_spatialref.h>
-#include <vector>
-#include <boost/assign.hpp>
-#include <iostream>
-#include <cmath>
+
 
 
 extern WDB_LOG  *LOG;
@@ -231,6 +233,7 @@ setProj()
 
 	if( srcProjection.exportToProj4(&proj ) == OGRERR_NONE ) {
 		proj_ = proj;
+		boost::trim(proj_);
 		CPLFree( proj );
 	}
 
