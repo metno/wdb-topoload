@@ -135,7 +135,7 @@
 			</varlistentry>
 					
 			<varlistentry>
-				<term>--dataprovider=USERNAME</term>
+				<term>--dataprovider=PROVIDERNAME</term>
 				<listitem>
 					<para>Use the given name as dataprovider name in the 
 					database. This may fail if the user does not have 
