@@ -1,3 +1,9 @@
+wdb-topoload (1.0.0-1) lucid; urgency=low
+
+  * Fix a crash when we fail to connect to the database.
+
+ -- Børge Moe <wdb@met.no>  Mon, 9 Nov 2015 10:45:00 +0100
+
 wdb-topoload (1.0.0~rc1-1) lucid; urgency=low
 
   * Initial release.
