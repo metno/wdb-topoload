@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 7),
  autotools-dev,
  cdbs,
  libwdbload-dev,
- libgdal1-dev 
+ libgdal-dev 
 Build-Conflicts: autoconf2.13, automake1.4
 Standards-Version: 3.9.3
 
